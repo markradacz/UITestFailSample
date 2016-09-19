@@ -4,6 +4,12 @@ Sample project demonstrating issue with running UITest on iOS 10
 After upgrading Xamarin Studio to Version 6.1 (build 5441)
 running UITest fails with the following exception:
 
+##Xamarin Studio screenshot
+
+![](Screenshots/XS_screenshot.png)
+
+##Exception
+
 SetUp : System.InvalidOperationException : Sequence contains no matching element
 Stack trace:
   at System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00065] in /private/tmp/source-mono-4.6.0/bockbuild-xamarin/profiles/mono-mac-xamarin/build-root/mono-x86/mcs/class/referencesource/System.Core/System/Linq/Enumerable.cs:965 
